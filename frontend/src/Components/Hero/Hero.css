@@ -1,0 +1,21 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img {
+    max-width: 65%;
+    height: auto;
+}
+
+.separator-bar {
+    width: 80%;
+    height: 3px;
+    background-color: #333;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
